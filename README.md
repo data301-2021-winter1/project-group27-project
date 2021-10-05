@@ -9,7 +9,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your topic/interest in about 150-200 words
 
-The purpose for this project was to obtain a greater understanding of the connection between crimes and mental disorders. Mental disorders have been known to play a key role in criminals and the types of crimes they have commited. From previous courses we've taken, we understand that there can be different factors that influence a criminal from growing up to their current environment. The severity of their disorder may also impact the sentence to their crime. All members of this group were interested in a psychology topic, and a better understanding of crimes in relation to mental disorders could provide intel on better treatments or even for early indications and prevention of these crimes. There are many questions that can be asked in this type of dataset, what factors can alter the rate of a crime (such as SES, family, community, etc.), what allowed for recidivism for the number of arrests, and more! 
+The purpose for this project was to obtain a greater understanding of the connection between crimes and mental disorders. Mental disorders have been known to play a key role in criminals and the types of crimes they have commited. From previous courses we've taken, we understand that there can be different factors that influence a criminal from growing up to their current environment. The severity of their disorder may also impact the sentence to their crime. Both members of this group were interested in a psychology topic, and a better understanding of crimes in relation to mental disorders could provide intel on better treatments or even for early indications and prevention of these crimes. There are many questions that can be asked in this type of dataset, what factors can alter the rate of a crime (such as SES, family, community, etc.), what allowed for recidivism for the number of arrests, and more! The number of variables in this dataset will also allow for more complex statistical analyses. 
 
 ## Describe your dataset in about 150-200 words
 
@@ -17,9 +17,8 @@ The dataset was a study made Dean Harper that was published by National Institut
 
 ## Team Members
 
-- Person 1: one sentence about you!
-- Person 2: one sentence about you!
-- Person 3: one sentence about you!
+- Andry:
+- Rebecca: I'm a PhD student in psychology studying technology and social relationships!
 
 ## Images
 
