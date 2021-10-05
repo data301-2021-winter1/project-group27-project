@@ -1,0 +1,1376 @@
+1                                                                                    
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                        CRIME AND MENTAL DISORDER, 1972                              
+                                                                                     
+                                                                                     
+                                 (ICPSR 9088)                                        
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                            Principal Investigator                                   
+                                                                                     
+                                  Dean Harper                                        
+                            University of Rochester                                  
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                              First ICPSR Edition                                    
+                                     1989                                            
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                        Inter-university Consortium for                              
+                         Political and Social Research                               
+                                 P.O. Box 1248                                       
+                           Ann Arbor, Michigan 48106                                 
+                                                                                     
+                                                                                     
+                                                                                     
+          (Hard copy documentation transformed into machine-readable                 
+         text utilizing Optical Character Recognition (OCR) Scanning,                
+                                 December 1992                                       
+                                                                                     
+                                                                                     
+                                                                                     
+1                                                                                    
+                                                                                     
+1                                                                                    
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                             BIBLIOGRAPHIC CITATION                                  
+                                                                                     
+                                                                                     
+            Publications  based  on  ICPSR  data  collections  should                
+            acknowledge  those  sources  by  means  of  bibliographic                
+            citations.  To ensure that such source  attributions  are                
+            captured  for  social  science  bibliographic  utilities,                
+            citations must appear in footnotes or  in  the  reference                
+            section  of publications.  The bibliographic citation for                
+            this data collection is:                                                 
+                                                                                     
+                                                                                     
+                 STUDYNO = 09088 Harper, Dean. CRIME AND  MENTAL                     
+                 DISORDER,  1972 [computer file]. Rochester, NY:                     
+                 Dean   Harper,    University    of    Rochester                     
+                 [producer],   1985.   Ann   Arbor,  MI:  Inter-                     
+                 university Consortium for Political and  Social                     
+                 Research [distributor], 1989.                                       
+                                                                                     
+                                                                                     
+                                                                                     
+                REQUEST FOR INFORMATION ON USE OF ICPSR RESOURCES                    
+                                                                                     
+            To provide funding agencies  with  essential  information                
+            about  use  of  archival  resources and to facilitate the                
+            exchange  of  information   about   ICPSR   participants'                
+            research activities, users of ICPSR data are requested to                
+            send to ICPSR bibliographic citations for each  completed                
+            manuscript or thesis abstract. Please indicate in a cover                
+            letter which data were used.                                             
+                                                                                     
+                                                                                     
+                                                                                     
+                                 DATA DISCLAIMER                                     
+                                                                                     
+            The original  collector  of  the  data,  ICPSR,  and  the                
+            relevant  funding  agency bear no responsibility for uses                
+            of this collection or for interpretations  or  inferences                
+            based upon such uses.                                                    
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+1                                                                                    
+                                                                                     
+1                                                                                    
+                          TABLE OF CONTENTS                                          
+                                                                                     
+                                                                                     
+                                                        Page no.                     
+                                                                                     
+ Collection of the Data                                    2                         
+                                                                                     
+ Comments on Psychiatric Data                              7                         
+                                                                                     
+ Codebook                                                  9                         
+                                                                                     
+ Criminal Offenses For Which Individuals Were Sentenced   15                         
+                                                                                     
+ Codes for Diagnosis                                      17                         
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+1                                                                                    
+ Page 2                                            ICPSR 9088                        
+                                                                                     
+                                                                                     
+                        COLLECTION OF THE DATA                                       
+                                                                                     
+                                                                                     
+                                                                                     
+      Some History of the Data. In 1978, several of us devised a project to          
+ examine mental disorder among a set of prisoners in the County Jail.  A             
+ graduate student was assigned to the task of collecting the data. Once              
+ collected, however,it was not analyzed because we had become involved in other      
+ projects.In the fall of 1984, I decided to analyze these data, which consisted      
+ of information on 621 prisoners, 186 of whom it appeared had had contacts with      
+ psychiatric facilities; to do this, I obtained a small grant from the National      
+ Institute of Justice for work on it during the summer of 1985. After carrying       
+ out some analysis, I became distracted by some anomalies and puzzles in the         
+ data,so I went back and examined the collection procedures, and concluded that      
+ the data were incomplete.For presentation at the November 1985 meetings of the      
+ American Society of Criminology, I attempted to obtain a complete and accurate      
+ set of data.  However, at that time I still felt some disquiet about the data.      
+ Hence, following the meetings, I returned to redo some of the data collection       
+ and analysis procedures, which will be described below. At this time, I am          
+ confident that the data are as complete and as accurate as anyone can make          
+ them. As will be seen, the numbers Vary from those cited above in this              
+ paragraph and from those reported at the November meetings.                         
+                                                                                     
+      The Sources of the Data. The data came from two sources: (1) the _______       
+ County Jail and (2) the Psychiatric Register. From the records of the________       
+ County Jail, a list of the names of all individuals serving time in the jail        
+ during the year 1972 was obtained. This list consisted of a photocopy of the        
+ jail log-specifically 17 hand-written pages which listed, in order of date of       
+ admission, those sentenced to the jail. The year 1972 was selected because we       
+ wanted to determine psychiatric contacts after the period in jail, as well as       
+ before. With this list of names, the graduate student searched the prisoners'       
+ files maintained by the jail probation officers; from these files, additional       
+ information was extracted, viz., race, birth date, marital status, education,       
+ occupation, past criminal offenses, and criminal offenses in 1972. For some         
+ prisoners, there were no files. ("They are in someone's office" was the             
+ explanation). And for some prisoners, the files were incomplete. (Clearly, the      
+ probation officers, frequently harried and always overworked,did not have time      
+ to always carefully collect this information). However, the information that        
+ was available was recorded and coded. It should be noted that most of the           
+ information, in particular name and criminal offense, is public and available       
+ to anyone who wants to spend time in the courts.                                    
+                                                                                     
+     Additional data were obtained from the _______ county Psychiatric Case          
+ Register. The Case Register is a collection of data on nearly all individuals       
+ who were seen by psychiatrists in ______ County from January 1,1960 to 1977.        
+ when it ceased to operate because of lack of funds for its continuation. The        
+ register consisted of two files --a name file and a contact file; each will be      
+ described below.                                                                    
+                                                                                     
+     Those who provided treatment to the patients supplied information to the        
+ Register by filling out a brief form for each patient.This form inquired about      
+                                                                                     
+                                                                                     
+1                                                                                    
+ ICPSR 9088                                            Page 3                        
+                                                                                     
+                                                                                     
+ sex, race, age, address, diagnosis, treatment, date of treatment (or of             
+ discharge), and reason for discharge. The information was provided by private       
+ psychiatrists, as well as by staff of hospitals and outpatient clinics. In the      
+ early years,there was cooperation from all psychiatrists in the county, but as      
+ the years progressed,some of the psychiatrists became less consistent in their      
+ reporting.                                                                          
+                                                                                     
+      Once the form came to the Case Register staff, it was "processed" and key      
+ punched. Processing consisted of determining if the patient had been seen           
+ before by the same or a different psychiatrist or facility. If the patient had      
+ never been seen before, then a new identification number was assigned and           
+ coding and key punching was done; in this case, three records were created --       
+ the first contained register ID, name and address. The second (called the           
+ master record) contained Register ID, birth date, race and sex; the third           
+ (called the contact record) contained address at the time of contact (coded         
+ into census tract and not street address), facility of treatment, date of           
+ treatment, diagnosis, and treatment. When the patient was discharged from           
+ treatment another form was sent, which led to an updating of the contact            
+ record. If the patient had been seen before (as indicated by comparing name,        
+ birth date, and address with those in the name file), the old Register              
+ identification number was assigned, the other data were coded, and it all was       
+ keypunched; now only one record, a contact record, was created.                     
+                                                                                     
+      Then, the Case Register was periodically updated. For an old patient, the      
+ information from each form (considered a record)was appended at the end of the      
+ last contact record for that patient. For a new patient, the name record was        
+ appended to the end of the name file and the master record and contact record       
+ or records were appended to the end of the contact file.                            
+                                                                                     
+      When the Register ceased operation information had been collected on           
+ 111,828 patients over an 18-year period. There were 303,850 contact records in      
+ the contact file. Thus, these patients had an average of 2.72 contacts.             
+                                                                                     
+     Above, it was said that almost all of those receiving psychiatric care in       
+ _______ County were in the Psychiatric Register. By "almost all" is meant that      
+ the rigors of collecting such a large mass of data probably resulted in some        
+ errors; one kind of error was the failure of people supplying the information       
+ to supply it for some patients. And, of course, there were other errors -- the      
+ wrong information was supplied by those providing treatment, Register staff         
+ made errors in coding or key punching the data, and so on.                          
+                                                                                     
+      It should be pointed out that the psychiatric data are confidential.  The      
+ Case Register was devised for research purposes - some of that research being       
+ applied and directed to the question of how to better organize psychiatric          
+ care. Being maintained on two computer tapes, one tape containing name and          
+ address and the other tape containing the contact data, the Case Register is        
+ kept in a locked cabinet in order to preserve its confidentiality.                  
+                                                                                     
+     The Register can be compared with the patient files maintained by medical       
+ facilities and by private practitioners. For example, hospitals maintain            
+ handwritten and typed notes on patients, which are collected into one or more       
+                                                                                     
+                                                                                     
+1                                                                                    
+ Page 4                                            ICPSR 9088                        
+                                                                                     
+                                                                                     
+ file folders. These are available to medical staff for facilitating treatment       
+ and, in many hospitals, are used by physicians and others for research. These       
+ files frequently contain rich, detailed and impressionistic data on patients.       
+ In this respect, they differ from the Case Register, which contains only the        
+ briefest of data but does so systematically. On the other hand, hospital files      
+ contain information collected on the patient while in that hospital and has no      
+ data on (or only passing reference to) treatment in other facilities.  In this      
+ respect, the Case Register differs, in that treatments at different facilities      
+ are linked. Finally, the Case Register, unlike hospital files, is not used for      
+ treatment purposes. Because of this, the Case Register is and has been              
+ available for use only by those investigators associated with the Departmentof      
+ Psychiatry of the _______________________ Medical School. As such, the              
+ confidentiality of the data have been maintained completely, which again is         
+ different from hospital files where personnel occasionally may gain access to       
+ information on patients when they have no right to it.                              
+                                                                                     
+      This research did not use all of the register data - other than to report      
+ some extant results from other analyses. Rather, I collected the psychiatric        
+ data from the Register for those prisoners sentenced to the jail in 1972, who       
+ had psychiatric contacts as indicated by being in the Case Register.                
+                                                                                     
+      This was done by a computer matching of the names of the prisonersagainst      
+ those in the Register. If an individual in the list of prisoners had a name,        
+ race, sex, and birthday identical to an individual in the Case Register, the        
+ two individuals were considered identical and the computer program copied the       
+ Register ID to disk. If some of the information was identical, but not all of       
+ it, then the information from the Register and from the prisoner file was           
+ listed and the investigator (in the first instance a research assistant and in      
+ the last instance myself) examined it and made a decision. If, for example,         
+ everything was identical except the birth year and the name was not a common        
+ one (such as "John Smith"),then the two were considered to be identical. Where      
+ there was some doubt, then the decision was to consider them different. For         
+ this research,it was considered better to miss some who were identical than to      
+ consider some identical who may not have been.                                      
+                                                                                     
+      Then, the list of Register ID's, appended to the prisoner data and from        
+ which the prisoner's name had been removed, was -matched- to the contact file.      
+ For each prisoner with a Register ID, psychiatric data from the Case Register       
+ was appended to the jail data.The data were structured, then, in the following      
+ way:                                                                                
+                                                                                     
+                Record 1 of jail data for prisoner 1                                 
+                                                                                     
+                Record 2 of jail data for prisoner 1                                 
+                                                                                     
+                Record 1 of jail data for prisoner 2                                 
+                                                                                     
+                Record 2 of jail data for prisoner 2                                 
+                                                                                     
+                Information from first contact record for prisoner 2                 
+                                  .                                                  
+                                                                                     
+                                                                                     
+1                                                                                    
+ ICPSR 9088                                            Page 5                        
+                                                                                     
+                                                                                     
+                                  .                                                  
+                                  .                                                  
+                                                                                     
+                Information from last contact record for prisoner 2                  
+                                                                                     
+                Record 1 of jail data for prisoner 3                                 
+                                  .                                                  
+                                  .                                                  
+                                  .                                                  
+                               etc.                                                  
+                                                                                     
+ Thus, prisoner 1 had no psychiatric contacts whereas prisoner 2 did have.  At       
+ the same time this was done, a new identification number was appended and the       
+ old identification numbers were deleted; the new ID number was randomly             
+ determined.                                                                         
+                                                                                     
+      In addition, a control group of psychiatric patients was selected.  This       
+ consisted of a set of individuals who were matched to those prisoners who had       
+ psychiatric contacts. Specifically, for each such prisoner, the Register was        
+ searched for all individuals who were identical to the prisoner in respect to       
+ sex, race, year of first contact, census tract of first contact, and had a          
+ birth year within five years of the prisoner's.  Where there was more than one      
+ match, then one such match was randomly selected. If there was no match, then       
+ the birth year was expanded to "within 8 years", the year of first contact was      
+ broadened to include the previous year and the following year, and the census       
+ tract was broadened to include a census tract of similar socio-economic             
+ characteristics, in that order. This, then, yielded a control group of              
+ psychiatric patients who had not served time in the _______ County Jail in the      
+ target year. Data for the control group were identical in nature to the data        
+ for the prisoner group, except that there were no jail data.                        
+                                                                                     
+     These were the data-collection procedures that were initially followed;         
+ in the subsequent work, described below, the same general procedures were           
+ followed.                                                                           
+                                                                                     
+     "Re-collection" of the Data. As I indicated earlier, a research assistant       
+ attached to Case Register Research projects did the initial data collection,        
+ viz., going through jail records, collecting Jail data, conducting the name         
+ match and creating the control group. This resulted in 621 prisoners, of which      
+ 186 had had psychiatric contacts, and it was this data that I began to analyze      
+ in the summer of 1985. I conducted various analyses, but towards the end of         
+ this work, I became uncomfortable with the data, so I went back and studied         
+ what records remained from the work done by the research assistant; this left       
+ me with the conclusion that I should (1) examine the original list of names         
+ again to see if any prisoners who appeared to be different individuals were in      
+ fact the same, and (2) conduct the name match again with the Register.              
+                                                                                     
+     Not all of the names on the original list -- a photocopy of a handwritten       
+ log -- were immediately decipherable. Some individuals were sentenced at            
+ different times during the year, for different crimes or for a repeat of the        
+ same crime. The second entry in the log might appear to be a different              
+                                                                                     
+                                                                                     
+1                                                                                    
+ Page 6                                            ICPSR 9088                        
+                                                                                     
+                                                                                     
+ individual because the first name was different in the first entry (e.g.,           
+ "Jimmy') than in the second entry (e.g., "James").This would become evident if      
+ there was one file in the jail records for James X which listed the twoarrests      
+ or there were two files - one for Jimmy X and the other for James X. Likewise,      
+ there might be variants in the spelling of the last name, e.g., -Dean Harpur-       
+ in one entry and -Dean Harper- in another. One cannot necessarily conclude          
+ these are the same individuals; thus, some careful and thoughtful examination       
+ of these records was necessary. (For the November meetings, I concluded that        
+ 624 individuals had served time during 1972,but in a subsequent re-examination      
+ I concluded that the number was in fact 617.)At the same time that I corrected      
+ the list of names I also corrected the data on race, sex, crimes, and past          
+ arrests.                                                                            
+                                                                                     
+     Having reassessed the original list of names and concluding that further        
+ examination of the information available to me would not increase myconfidence      
+ in the accuracy of the list of individuals serving time,I then conducted again      
+ the second step, i.e., name matching the revised prisoner list with the             
+ Psychiatric Case Register. (This resulted in the addition of several names and      
+ the deletion of several others, but increased the total of such prisoners from      
+ 385 -- the number reported in November -- to 386).                                  
+                                                                                     
+     A later appendix contains the code book for these data and a listing of         
+ a portion of the data.                                                              
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+1                                                                                    
+ ICPSR 9088                                            Page 7                        
+                                                                                     
+                                                                                     
+                     COMMENTS ON PSYCHIATRIC DATA                                    
+                                                                                     
+                                                                                     
+      Diagnosis. Over time the medical profession develops and changes a             
+ nosology -- a classification of distinct diseases. This also is done in             
+ psychiatry. In 1952 in the United States the American Psychiatric Association       
+ created the first Diagnostic and Statistic Manual of Mental Disorders, which        
+ was referred to as DSM-I. A revised version, DSM-II, was put into use in 1968,      
+ and a third version in 1980. The diagnoses used in the Psychiatric Register,        
+ and which enter into the analyses done here, were based on DSM-I during the         
+ first nine years of the Register (1960-1968) and on DSM-II thereafter               
+ (1969-1977).                                                                        
+                                                                                     
+      These diagnostic categories are listed in a later appendix. Among these        
+ are some disorders that, to the non-professional, would not appear to be            
+ psychiatric disorders, but rather bad habits and obnoxious or defective             
+ character traits. These are the diagnoses of "drug abuse", "personality             
+ disorder" and "transient disorder".                                                 
+                                                                                     
+      In respect to "drug abuse", DSM-II contained a series of specific              
+ diagnoses ranging from psychotic organic brain syndromes (e.g., delirium            
+ tremens, Korsakov's psychosis, alcoholic deterioration) to non-psychotic            
+ organic brain syndromes (e.g., drunkenness) to alcoholic personality disorders      
+ (e.g., alcohol addiction, episodic excessive drinking).  In addition, DSM-II        
+ contains a series of categories, generally referred to as drug dependence, but      
+ where each category refers to addiction to a particular drug (e.g., opium,          
+ barbiturates, and so on). All of these specific diagnoses are part of the           
+ general category of "drug abuse" which is used in this report.                      
+                                                                                     
+     By "personality disorders" is meant those disorders "characterized by           
+ deeply ingrained maladaptive patterns of behavior that are perceptibly              
+ different in quality from psychotic and neurotic symptoms", (p. 41, DSM- II).       
+ These include, for example, paranoid personality ("characterized by                 
+ hypersensitivity, rigidity, unwarranted suspicion, jealousy, envy, excessive        
+ self importance and a tendency to blame others and ascribe evil motives to          
+ them", - p. 42, DSM-II), explosive personality ("characterized by gross             
+ outbursts of rage or verbal or physical aggressiveness", p. 42, DSM-II).  What      
+ is significant about personality disorders is that (1) they interfere with the      
+ individual's ability to function successfully in everyday life - making it          
+ difficult to establish satisfactory relations with others, to keep a job, to        
+ work toward a goal and the like, and (2) some kind of therapeutic intervention      
+ may reduce the noxious effects of this disorder.                                    
+                                                                                     
+     In DSM-II "transient disorders" are referred to as "transient situational       
+ disturbances" and are defined as "more or less transient disorders of any           
+ severity (including those of psychotic proportions) that occur in individuals       
+ without any apparent underlying mental disorders and that represent an acute        
+ reaction to overwhelming environmental distress", p. 48, DSM-II). Thus, they        
+ are disorders but not mental disorders. What this suggests is that there is a       
+ segment of the population that responds to stress by sometimes seeing a             
+ psychiatrist and by sometimes doing something that results in a jail sentence.      
+                                                                                     
+                                                                                     
+1                                                                                    
+ Page 8                                            ICPSR 9088                        
+                                                                                     
+                                                                                     
+      In some instances no diagnosis was reported by the facility or                 
+ psychiatrist.  In those instances, the diagnosis was deferred -- the                
+ psychiatrist indicating that more time or information was needed before a           
+ diagnosis could be made. On these occasions, however, the psychiatrist              
+ submitted a report to the Register.                                                 
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+1                                                                                    
+ ICPSR 9088                                            Page 9                        
+                                                                                     
+                                                                                     
+                               CODEBOOK                                              
+                                                                                     
+                                                                                     
+                                                                                     
+ For each prisoner there are at least two records. For each prisoner who was in      
+ the psychiatric register there are one or more additional records.  For each        
+ individual in the control group there are at least three records;the first two      
+ records parallel the first two records of the data for prisoners, while             
+ subsequent records contain psychiatric data.                                        
+                                                                                     
+                                                                                     
+                                                                                     
+  RECORD 1                                                                           
+                                                                                     
+      Column  1-4    - Identification Number                                         
+                                                                                     
+      Column  5-7    - Record Identification Number                                  
+                                                                                     
+                       "991" - signifies the first record                            
+                                                                                     
+      Column  8      - Sex                                                           
+                                                                                     
+                       8/1 - male                                                    
+                                                                                     
+                       8/2 - female                                                  
+                                                                                     
+      Column  9-10   - Year of Birth                                                 
+                                                                                     
+                       e.g. "36" means year of birth was 1936                        
+                                                                                     
+      Column 11      - Race                                                          
+                                                                                     
+                       11/0 - no information                                         
+                                                                                     
+                       11/1 - white                                                  
+                                                                                     
+                       11/2 - black                                                  
+                                                                                     
+      Column 12-13   - Education - number of years                                   
+                                                                                     
+                       e.g. "10" means 10 years of education                         
+                                                                                     
+      Column 14      - Marital Statue                                                
+                                                                                     
+                       14/0 - no information                                         
+                                                                                     
+                       14/1 - single                                                 
+                                                                                     
+                       14/2 - married                                                
+                                                                                     
+                       14/3 - separated                                              
+                                                                                     
+                                                                                     
+1                                                                                    
+ Page 10                                           ICPSR 9088                        
+                                                                                     
+                                                                                     
+                       14/4 - divorced                                               
+                                                                                     
+                       14/5 - widowed                                                
+                                                                                     
+                       14/6 - common law marriage                                    
+                                                                                     
+      Column 15-16   - Number  of Children                                           
+                                                                                     
+                       "00" - none or no information                                 
+                                                                                     
+                       "01" - one child                                              
+                                                                                     
+                            etc.                                                     
+                                                                                     
+      Column 17-18   - Occupation                                                    
+                                                                                     
+                       "00" - no information                                         
+                                                                                     
+                       "01" - unskilled                                              
+                                                                                     
+                       "02" - skilled                                                
+                                                                                     
+                       "03" - white collar                                           
+                                                                                     
+                       "04" - military                                               
+                                                                                     
+                       "05" - professional                                           
+                                                                                     
+                       "06" - student                                                
+                                                                                     
+      Column 19-20   - Number  of 1972 arrests                                       
+                                                                                     
+      Column 21-23   - Total Number of Days Sentenced to Jail                        
+                                                                                     
+      Column 24-25   - Crime for Which the Prisoner Was Sentenced                    
+                       (See Appendix for a list of the crimes and their              
+                       codes)                                                        
+                       If any individual was sentenced more than once, each          
+                       subsequent sentence is coded in the next two columns.         
+                                                                                     
+      Column 26-27   - Second Sentence                                               
+                                                                                     
+      Column 28-29   - Third Sentence                                                
+                                                                                     
+      Column 30-31   - Fourth Sentence                                               
+                                                                                     
+      Column 32-33   - Fifth Sentence                                                
+                                                                                     
+      Column 34-35   - Sixth Sentence                                                
+                                                                                     
+      Column 36-37   - Seventh Sentence                                              
+                                                                                     
+                                                                                     
+1                                                                                    
+ ICPSR 9088                                           Page 11                        
+                                                                                     
+                                                                                     
+      Column 38-39   - Eighth Sentence                                               
+                                                                                     
+      Column 40-41   - Ninth Sentence                                                
+                                                                                     
+      Column 42-43   - Tenth Sentence                                                
+                                                                                     
+      Column 44-45   - Eleventh Sentence                                             
+                                                                                     
+      Column 46-47   - Twelfth Sentence                                              
+                                                                                     
+      Column 48-49   - Thirteenth Sentence                                           
+                                                                                     
+      Column 50-51   - Fourteenth Sentence                                           
+                                                                                     
+      Column 52-68   - Contains Zeros                                                
+                                                                                     
+      Column 69-76   - To protect the confidentiality of the                         
+                       respondents, these columns have                               
+                       been replaced with blanks by the ICPSR.                       
+                                                                                     
+                                                                                     
+  RECORD 2                                                                           
+                                                                                     
+      Column 1-4     - Identification Number                                         
+                                                                                     
+      Column 5-7     - Record Identification Number                                  
+                                                                                     
+                       "992" signifies the second record                             
+                                                                                     
+                       The remainder of this record contains information,            
+                       viz., the number of arrests in previous years for any         
+                       one of 28 offenses. Each offense is coded in two              
+                       columns. A coding of "00" means that there were no            
+                       arrests for that offense or that no information was           
+                       available.                                                    
+                                                                                     
+      Column 8-9     - Public Intoxication                                           
+                                                                                     
+      column 10-11   - Petit Larceny                                                 
+                                                                                     
+      Column 12-13   - Misconduct (disorderly conduct, loitering, etc.)              
+                                                                                     
+      Column 14-15   - Assault                                                       
+                                                                                     
+      Column 16-17   - Arson                                                         
+                                                                                     
+      Column 18-19   - Rape                                                          
+                                                                                     
+      Column 20-21   - Forgery                                                       
+                                                                                     
+      Column 22-23   - Conspiracy                                                    
+                                                                                     
+                                                                                     
+1                                                                                    
+ Page 12                                           ICPSR 9088                        
+                                                                                     
+                                                                                     
+      Column 24-25   - Motor Vehicle Violations                                      
+                                                                                     
+      Column 26-27   - Narcotic Offenses                                             
+                                                                                     
+      Column 28-29   - Violation of Probation                                        
+                                                                                     
+      Column 30-31   - Violation of Parole                                           
+                                                                                     
+      Column 32-33   - Gambling                                                      
+                                                                                     
+      Column 34-35   - Grand Larceny                                                 
+                                                                                     
+      Column 36-37   - Robbery                                                       
+                                                                                     
+      Column 38-39   - Burglary                                                      
+                                                                                     
+      Column 40-41   - Sexual Offenses                                               
+                                                                                     
+      Column 42-43   - Criminal Possession of Dangerous Weapons                      
+                                                                                     
+      Column 44-45   - Criminal Possession of Forged Instrument                      
+                                                                                     
+      Column 46-47   - Obstruction of Government Administration                      
+                                                                                     
+      Column 48-49   - Resisting Arrest                                              
+                                                                                     
+      Column 50-51   - Escape                                                        
+                                                                                     
+      Column 52-53   - Criminal Possession of Stolen Property                        
+                                                                                     
+      Column 54-55   - Reckless Endangerment                                         
+                                                                                     
+      Column 56-57   - Criminally Negligent Homicide                                 
+                                                                                     
+      Column 58-59   - Youthful Offender                                             
+                                                                                     
+      Column 60-61   - Criminal Trespass                                             
+                                                                                     
+      Column 62-68   - Contains Zeros                                                
+                                                                                     
+      Column 69-76   - To protect the confidentiality of the                         
+                       respondents, these columns have                               
+                       been replaced with blanks by the ICPSR.                       
+                                                                                     
+                                                                                     
+  RECORD 3 to Ki+2                                                                   
+                                                                                     
+        (Where Ki represent the number of psychiatric contacts that the              
+        individual has had; if he has had no contacts then there is no record 3      
+        -- only 2 records)                                                           
+                                                                                     
+                                                                                     
+                                                                                     
+1                                                                                    
+ ICPSR 9088                                           Page 13                        
+                                                                                     
+                                                                                     
+      Column  1-4    - Identification number                                         
+                                                                                     
+      Column  5-7    - Contact number - varies from 1 to Ki                          
+                                                                                     
+      Column  8-13   - Date of Contact                                               
+                                                                                     
+              8-9      year                                                          
+                                                                                     
+             10-11     month number                                                  
+                                                                                     
+             12-13     day number in month                                           
+                                                                                     
+      Column 14-15   - Facility    To protect the confidentiality of the respon-     
+                                   dents, ICPSR has recoded this variable from       
+             1 - Inpatient care    facility of treatment to whether the patient      
+             2 - Outpatient care   received impatient or outpatient care.            
+                                                                                     
+      Column 16-18   - Census tract address at time of contact                       
+                                                                                     
+                       To protect the confidentiality of the respondents, ICPSR      
+                       has recoded this variable from census tract address to        
+                       city or county residence.                                     
+                                                                                     
+                       100 - City                                                    
+                       200 - County                                                  
+                       900 - Not known                                               
+                       S00 - Not known                                               
+                                                                                     
+      Column 19-21   - Diagnosis at contact                                          
+                                                                                     
+                       (See Appendix for a list of diagnoses and codes)              
+                                                                                     
+      Column 22      - Type  of Service Given                                        
+                                                                                     
+                       22/0     Diagnosis and treatment                              
+                                                                                     
+                       22/1     Treatment primarily                                  
+                                                                                     
+                       22/2     Incomplete study                                     
+                                                                                     
+                       22/3     Diagnosis or consultation                            
+                                                                                     
+                       22/4     Inpatient consultation                               
+                                                                                     
+      Column 23-28   - Date of Termination of Treatment                              
+                                                                                     
+                       23,24 - year                                                  
+                                                                                     
+                       25,26 - month                                                 
+                                                                                     
+                       27,28 - day                                                   
+                                                                                     
+                                                                                     
+1                                                                                    
+ Page 14                                           ICPSR 9088                        
+                                                                                     
+                                                                                     
+      Column 29      - Reason for Termination                                        
+                                                                                     
+                       29/0 - Physician's decision                                   
+                                                                                     
+                       29/1 - Joint decision of physician and patient                
+                                                                                     
+                       29/2 - patient has died                                       
+                                                                                     
+                       29/3 - patient has left community                             
+                                                                                     
+                       29/4 - patient terminates because of illness,                 
+                              financial stress or similar reasons                    
+                                                                                     
+                       29/5 - patient is transferred to other care in the            
+                              community                                              
+                                                                                     
+                       29/6 - patient is transferred to other care outaide of        
+                              community                                              
+                                                                                     
+                       29/7 - patient is transferred to non-psychiatric care         
+                                                                                     
+                       29-8 - patient doesn't wish to continue                       
+                                                                                     
+                       29/9 - reason is unknown                                      
+                                                                                     
+      Column 30-68   - Contains Zeros                                                
+                                                                                     
+      Column 69-76   - To protect the confidentiality of the                         
+                       respondents, these columns have                               
+                       been replaced with blanks by the ICPSR.                       
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+1                                                                                    
+ ICPSR 9088                                           Page 15                        
+                                                                                     
+                                                                                     
+        CRIMINAL OFFENSES FOR WHICH INDIVIDUALS WERE SENTENCED                       
+                                                                                     
+                                                                                     
+  01  -Public Intoxication                                                           
+  02  -Criminal Possession of Dangerous Drug                                         
+  03  -Narcotics Warrant                                                             
+  04  -Fraudulently Obtaining Narcotics                                              
+  11  -Petty Larceny                                                                 
+  12  -Grand Larceny                                                                 
+  13  -Criminal Possession of Stolen Property                                        
+  14  -Criminal Possession of Forged Instrument                                      
+  15  -Criminal Trespass                                                             
+  16  -Burglary                                                                      
+  17  -Falsifying Business Records                                                   
+  18  -Forgery                                                                       
+  19  -Issuing a Bad Check                                                           
+                                                                                     
+  21  -Assault                                                                       
+  22  -Criminal Possession of a Dangerous Weapon                                     
+  23  -Reckless Endangerment                                                         
+  24  -Harassment                                                                    
+  25  -Robbery                                                                       
+  26  -Reckless Driving                                                              
+                                                                                     
+  31  -Motor Vehicle Violation                                                       
+  32  -Driving While Intoxicated                                                     
+  33  -Unlawful Use of a Motor Vehicle                                               
+  34  -Speeding                                                                      
+  35  -Transporting a Stolen Vehicle                                                 
+  36  -Operating a Motor Vehicle Without a License                                   
+                                                                                     
+  41  -Gambling                                                                      
+  42  -Loitering                                                                     
+  43  -Violation of Social Services Law                                              
+  44  -Soliciting Rides                                                              
+                                                                                     
+  51  -Resisting Arrest                                                              
+  52  -Obstructing Government Administration                                         
+  53  -Violation of Parole                                                           
+  54  -Violation of Conditional Discharge                                            
+  55  -Tampering with Physical Evidence                                              
+  56  -Contempt of Court                                                             
+                                                                                     
+  61  -Youthful Offender                                                             
+  62  -Criminal Mischief                                                             
+                                                                                     
+  71  -Arson                                                                         
+                                                                                     
+  81  -Disorderly Conduct                                                            
+  82  -Endangering the Welfare of a Child                                            
+  83  -Sexual Offenses                                                               
+                                                                                     
+                                                                                     
+1                                                                                    
+ Page 16                                           ICPSR 9088                        
+                                                                                     
+                                                                                     
+  84  -Conspiracy                                                                    
+  85  -Prostitution                                                                  
+  86  -Criminal Solicitation                                                         
+ .bp                                                                                 
+                                                                                     
+                                                                                     
+                         CODES FOR DIAGNOSIS                                         
+                                                                                     
+                                                                                     
+  100   Acute Brain Syndrome Assoc. with Intracranial Infection                      
+  101   Acute Brain Syndrome Assoc. with Systemic Infections                         
+  102   Acute Brain Syndrome Drug or Poison Intoxication                             
+  103   Acute Brain Syndrome Alcohol Intoxication (Pathological Intoxication)        
+  104   Acute Hallucinosis                                                           
+  105   Delirium Tremens                                                             
+  106   Acute Brain Syndrome Assoc. with Tratima                                     
+  107   Acute Brain Syndrome Assoc. with Circulatory Disturbance                     
+  108   Acute Brain Syndrome Assoc. with Convulsive Disorder                         
+  109   Acute Brain Syndrome with metabolic Disturbance                              
+  110   Acute Brain Syndrome Assoc. with Intracranial Neoplasm                       
+  111   Acute Brain Syndrome with Disease of Unknown or Uncertain Cause              
+  112   Acute Brain Syndrome of Unknown Cause                                        
+                                                                                     
+  200   Chronic Brain Syndrome Assoc. with Congenital Cranial Anomaly                
+  201   Chronic Brain Syndrome Assoc. with Congenital Spastic Paraplegia             
+  202   Chronic Brain Syndrome Assoc. with Mongolish                                 
+  203   Chronic Brain Syndrome Due to Prenatal Maternal Infectious Disease           
+  204   Chronic Brain Syndrome Assoc. with Central Nervous System Syphilis           
+  205   Meningoencephalitic Chronic Brain Syndrome                                   
+  206   Meningovascular Chronic Brain Syndrome                                       
+  207   Other Central Nervous System Syphilis                                        
+  208   Chronic Brain Syndrome Assoc. with Intracranial Infection other than         
+           Syphilis (Mumps, Encephalitis)                                            
+  209   Chronic Brain Syndrome Assoc. with Intoxication                              
+  210   Chronic Brain Syndrome, Drug or Poison Intoxication                          
+  211   Chronic Brain Syndrome, Alcohol Intoxication                                 
+  212   Chronic Brain Syndrome Assoc. with Birth--Trauma                             
+  213   Chronic Brain Syndrome Assoc. with Brain Trauma                              
+  214   Chronic Brain Syndrome Brain Trauma, Gross Force (Fracture)                  
+  215   Chronic Brain Syndrome Following Brain Operation                             
+  216   Chronic Brain Syndrome Following Electrical Brain Trauma                     
+  217   Chronic Brain Syndrome Following Irradiational Brain Trauma                  
+  218   Chronic Brain Syndrome Assoc. with Cerebral Arteriosclerosis                 
+  219   Chronic Brain Syndrome Assoc. with Circulatory Disturbance other than        
+           Cerebral Arteriosclerosis                                                 
+  220   Chornic Brain Syndrome Assoc. with Convulsive Disorder                       
+  221   Chronic Brain Syndrome Assoc. with Senile Brain Disease                      
+  222   Chronic Brain Syndrome Assoc. with Other Circulatory Disturbance or          
+           Disturbance of Metabolism, Growth or Nutrition (Includes Presenile,       
+           Alzheimers and Picks Disease, Fanilial Amaurosis, Adrenal Cortical        
+           Diseases such as Cushings or Addisons, Myxedema, Hyperthyroid,            
+                                                                                     
+                                                                                     
+1                                                                                    
+ ICPSR 9088                                           Page 17                        
+                                                                                     
+                                                                                     
+           Pituitary, Simmonds Disease)                                              
+  223   Chronic Brain Syndrome Assoc. with Intracranial Neoplasm (Tumor Growth)      
+  224   Chronic Brain Syndrome Assoc. with Diseases of Unknown or Uncertain          
+           Cause (Includes Multiple Sclerosis, Huntingtons Chorea, and Other         
+          Diseases of a Familial or Hereditary Nature, Encephalitis Lethargical      
+  225   Chronic Brain Syndrome of Unknown Cause                                      
+  230   Organic Brain Syndrome (Not otherwise specified)                             
+  231   Senile Dementia                                                              
+  232   Pre-Senile Dementia                                                          
+  233   Alcoholic Psychosis (Not otherwise specified)                                
+  234   Delirium Tremens                                                             
+  235   Korsakov's Psychosis                                                         
+  236   Other Alcoholic Hallucinosis                                                 
+  237   Alcohol Paranoid State                                                       
+  238   Acute Alcohol Intoxication                                                   
+  239   Alcoholic Deterioration                                                      
+  240   Pathological Intoxication                                                    
+  241   Other Alcoholic Psychosis                                                    
+  242   Psychosis Associated with Intracranial Infection                             
+  243   General Paralysis                                                            
+  244   Syphilis of Central Nervous System                                           
+  245   Epidemic Encephalitis                                                        
+  246   Other Unspecified Encephalitis                                               
+  247   Other Intracranial Infection                                                 
+  248   Psychosis Associated with Other Cerebral Condition                           
+  249   Cerebral Arteriosclerosis                                                    
+  250   Other Cerebrovascular Disturbance                                            
+  251   Epilepsy                                                                     
+  252   Intracranial Neoplasm                                                        
+  253   Degenerative Disease of the CNS                                              
+  254   Brain Tr                                                                     
+  255   Other Cerebral Condition                                                     
+  256   Psychosis Associated With Other Physical Condition                           
+  257   Endocrine Disorder (Cushings Disease)                                        
+  258   Metabolic and Nutritional Disorder                                           
+  259   Systemic Infection                                                           
+  260   Drug or Poison Intoxication (Other than Alcoholic)                           
+  261   Childbirth (Post Partum Psychosis or Deparession)                            
+  262   Other and Unspecified Physical Condition                                     
+  263   Non-Psychotic Organic Brain Syndrome                                         
+  264   Intracranial Infection                                                       
+  265   Alcohol (Simple Drunkenness)                                                 
+  266   Other Drug, Poison or Systemic Intoxication                                  
+  267   Brain Trauma                                                                 
+  268   Circulatory Disturbance                                                      
+  269   Epilepsy                                                                     
+  270   Disturbance of Metabolism, Growth, or Nutrition                              
+  271   Senile or Pre-Senile Brain Disease                                           
+  272   Intracranial Neoplasm                                                        
+  273   Degenerative Disease of the CNS                                              
+  274   Other Physical Condition                                                     
+                                                                                     
+                                                                                     
+1                                                                                    
+ Page 18                                           ICPSR 9088                        
+                                                                                     
+                                                                                     
+  300   Mental Deficiency (Not Otherwise Specified)                                  
+  301      Mild                                                                      
+  302      Moderate                                                                  
+  303      Severe                                                                    
+  304   Mental Deficiencey, Idiopathic                                               
+  305      Mild                                                                      
+  306      Moderate                                                                  
+  307      Severe                                                                    
+  308      Profound                                                                  
+  309   Mental Retardation - Borderline                                              
+                                                                                     
+  400   Involutional Psychotic Reaction                                              
+  401   Affective Reactions                                                          
+  402   Manic Depressive Reaction, Manic Type                                        
+  403   Manic Depressive Reaction, Depressive Type                                   
+  404   Manic Depressive Reaction, Other                                             
+  405   Psychotic Depressive Reaction (Agitated,Melancholia)                         
+  406   Schizophrenic Reactions (Mixed)                                              
+  407   Schizophrenic Reaction, Simple Type                                          
+  408   Schizophrenic Reaction, Hebephrenic                                          
+  409   Schizophrenic Reaction, Catatonic Type                                       
+  410   Schizophrenic Reaction, Paranoid Type                                        
+  411   Schizophrenic Reaction, Acute Undifferentiated Type                          
+  412   Schizophrenic Reaction, Chr. Undifferentiated Type, Psuedo Neurotic          
+  413   Schizophrenic Reaction, Schizo-Affective Type                                
+  414   Schizophrenic Reaction, Childhood Type                                       
+  415   Schizophrenic Reaction, Residual Type                                        
+  416   Paranoid Reactions                                                           
+  417   Paranoia                                                                     
+  418   Paranoid State                                                               
+  419  Psychotic Reaction without Clearly Defined Structural Change, Other than      
+           Above Unknown Etiology                                                    
+  420   Postpartum Psychotic Reaction                                                
+  421   Hysterical Psychosis                                                         
+  430   Schizophrenia                                                                
+  431   Schizophrenia, Simple                                                        
+  432   Schizophrenia, Hebephrenic                                                   
+  433   Schizophrenia, Catatonic                                                     
+  434   Schizophrenia, Catatonic Type, Excited                                       
+  435   Schizophrenia, Catatonic Type, Withdrawn                                     
+  436   Schizophrenia, Paranoid (Chr. Par. Schiz. residual type)                     
+  437   Schizophrenia, Acute Schizophrenic Episode                                   
+  438   Schizophrenia, Latent (Borderline Schiz., Borderline State)                  
+  439   Schizophrenia, Residual                                                      
+  440   Schizophrenia, Schizo-Affective                                              
+  441   Schizophrenia, Schizo-Affective Excited                                      
+  442   Schizophrenia, Schizo-Affective, Depressed                                   
+  443   Schizophrenia, Childhood                                                     
+  444   Schizophrenia, Chronic Undifferentiated                                      
+  445   Schizophrenia, Other                                                         
+  446   Involutional Melancholia                                                     
+                                                                                     
+                                                                                     
+1                                                                                    
+ ICPSR 9088                                           Page 19                        
+                                                                                     
+                                                                                     
+  447   Manic-Depressive Illness, Manic                                              
+  448   Manic-Depressive Illness, Depressed                                          
+  449   Manic-Depressive Illness, Circular                                           
+  450   Manic-Depressive Illness, Circular, Manic                                    
+  451   Manic-Depressive, Circular, Depressed                                        
+  452   Other Major Affective Disorder                                               
+  453   Paranoia                                                                     
+  454   Involutional Paranoid State                                                  
+  455   Other Paranoid State                                                         
+  456   Psychotic Depressive Reaction                                                
+  457   Other Psychoses (Boderline, Hysterical, Unspecified, Other, Reactive)        
+                                                                                     
+  500   Psychophysiologic Skin Reaction                                              
+  501   Psychophysiologic Musculoskeletal Reaction                                   
+  502   Psychophysiologic Respiratory Reaction                                       
+  503   Psychophysiologic Cardiovascular Reaction                                    
+  504   Psychophysiologic Hemic and Lymphatic Reaction                               
+  505   Psychophysiologic Gastrointestinal Reaction                                  
+  506   Psychophysiologic Genito-Urinary Reaction                                    
+  507   Psychophysiologic Nervous System Reaction                                    
+  508   Psychophysiologic Reaction of Organs of Special Sense                        
+  510   Psychophysiological Disorder - Obesity                                       
+  511   Psychophysiological Disorder - Endocrine                                     
+                                                                                     
+  600   Psychoneurotic Reactions                                                     
+  601   Anxiety Reaction                                                             
+  602   Dissociative Reaction                                                        
+  603   Conversion Reaction                                                          
+  604   Phobic Reaction                                                              
+  605   Obsessive Compulsive Reaction                                                
+  606   Depressive Reaction (Reactive, Situational)                                  
+  607   Psychoneurotic Reaction, Mixed                                               
+  608   Psychoneurotic Reaction, Other                                               
+  610   Neuroses (Not otherwise specified)                                           
+  611   Neurosis, Anxiety                                                            
+  612   Neurosis, Hysterical                                                         
+  613   Neurosis, Hysterical Conversion Type                                         
+  614   Neurosis, Hysterical, Dissociative Type                                      
+  615   Neurosis, Phobic                                                             
+  616   Neurosis, Obsessive Compulsive                                               
+  617   Neurosis, Depressive                                                         
+  618   Neurosis, Neurasthenic                                                       
+  619   Neurosis, Depersonalization                                                  
+  620   Neurosis, Hypochondriacal                                                    
+  621   Neurosis, Other                                                              
+  622   Neurosis, Mixed                                                              
+                                                                                     
+  700   Personality Pattern Disturbance                                              
+  701   Inadequate Personality                                                       
+  702   Schizoid Personality                                                         
+  703   Cyclothymic Personality                                                      
+                                                                                     
+                                                                                     
+1                                                                                    
+ Page 20                                           ICPSR 9088                        
+                                                                                     
+                                                                                     
+  704   Paranoid Personality                                                         
+  705   Personality Trait Disturbance                                                
+  706   Emotionally Unstable Personality (Immature, Impulsive, or Impulsive          
+        Ridden)                                                                      
+  707   Passive-Aggressive Personality (Passive Aggressive, Aggressive)              
+  708   Hysterical Personality (Masochistic) (Narcissistic)                          
+  709   Compulsive Personality                                                       
+  710   Oral or Dependent Personality, Passive or Passive Dependent                  
+  711   Sociopathic Personality Disturbance (Psychopathic)                           
+  712   Antisocial Reaction (Asocial) (Dyssocial)                                    
+  713   Sexual Deviation (Sexual Perversion)                                         
+  714   Addiction                                                                    
+  715   Addiction Alcoholism                                                         
+  716   Addiction Drug                                                               
+  717   Special Symptom Reactions                                                    
+  718   Learning Disturbance                                                         
+  719   Speech Disturbance                                                           
+  720   Enuresis                                                                     
+  721   Somnahbulism                                                                 
+  722   Other                                                                        
+  723   Personality Trait Disturbance (Mixed) (Character Disorder, Mixed or          
+           Neurotic Character)                                                       
+  724   Personality Trait Disturbance - Other                                        
+  730   Personality Disorder (Not otherwise specified)                               
+  731   Personality Disorder, Paranoid                                               
+  732   Personality Disorder, Cyclothymic                                            
+  733   Personality Disorder, Schizoid                                               
+  734   Personality Disorder, Explosive                                              
+  735   Personality Disorder, Obsessive Compulsive                                   
+  736   Personality Disorder, Hysterical                                             
+  737   Personality Disorder, Asthenic                                               
+  738   Personality Disorder, Antisocial                                             
+  739   Personality Disorder, Passive-Aggressive                                     
+  740   Personality Disorder, Inadequate                                             
+  741   Personality Disorder, Other Specified Type                                   
+  742   Sexual Deviation (Not otherwise specified)                                   
+  743   Homosexuality - Relationship Between Members Same Sex                        
+  744   Fetishism - Inanimate Object                                                 
+  745   Pedophilia - Love of Children                                                
+  746   Transvestitism - Dressing in Opposite Sex Clothes                            
+  747   Exhibitionism - Exposing Themselves                                          
+  748   Voyeurism - Peeping Toms                                                     
+  749   Sadism - Inflecting Pain on Others                                           
+  750   Masochism - Receiving Pain, Being Hurt                                       
+  751   Other Sexual Deviation - Transsexualism                                      
+  752   Alcoholism                                                                   
+  753   Episodic Excessive Drinking                                                  
+  754   Habitual Excessive Drinking                                                  
+  755   Alcohol Addiction                                                            
+  756   Other Alcoholism                                                             
+  757   Drug Dependence                                                              
+                                                                                     
+                                                                                     
+1                                                                                    
+ ICPSR 9088                                           Page 21                        
+                                                                                     
+                                                                                     
+  758   Drug Dependence, Opium, Opium Alkaloids and Their Derivatives                
+  759   Drug Dependence, Synthetic Analgesics with Morphine-Like Effects             
+  760   Drug Dependence, Barbiturates                                                
+  761   Drug Dependence, Other Hypnotics and Sedatives or Tranquilizers              
+  762   Drug Dependence, Cocaine                                                     
+  763   Drug Dependence, Cannabis Sative (Hashish, Marihuana)                        
+  764   Drug Dependence, Other Psycho-Stimulants (Amphetamines) Speed                
+  765   Drug Dependence, Hallucinogens (STP, LSD, Drug Flashback, Trip)              
+  766   Drug Dependence, Other                                                       
+  767   Speech Disturbance                                                           
+  768   Specific Learning Disturbance                                                
+  769   Tic                                                                          
+  770   Other Psychomotor Disorder                                                   
+  771   Disorders of Sleep                                                           
+  772   Feeding Disturbance                                                          
+  773   Enuresis (Bed wetting)                                                       
+  774   Encopresis (Involuntary passing of feces)                                    
+  775   Cephalalgia (Headache or head pain)                                          
+  776   Other Special Symptom (Hair pulling)                                         
+  777   Mixed Character Disorder                                                     
+                                                                                     
+  800   Transient Situational Disturbance (Not otherwise specified)                  
+  801   Gross Stress Reaction                                                        
+  802   Adult Situational Reaction                                                   
+  803   Adjustment Reaction of Infancy (0-2yrs)                                      
+  804   Adjustment Reaction of Childhood (Behavior Disturbance) (Up to 14 yrs,)      
+  805   Habit Disturbance .                                                          
+  806   Conduct Disturbance (Behavior)                                               
+  807   Neurotic Traits                                                              
+  808   Adjustment Reaction of Adolescence (14-20 yrs.)                              
+  809   Adjustment Reaction of Late Life                                             
+  810   Behavior Disorders of Childhood and Adolescence (3-20 yrs.)                  
+  811   Hyperkinetic Reaction                                                        
+  812   Withdrawing Reaction                                                         
+  813   Overanxious Reaction                                                         
+  814   Runaway Reaction                                                             
+  815   Unsocialized Aggressive Reaction                                             
+  816   Group Delinquent Reaction                                                    
+  817   Other Reaction - Episodic Rage                                               
+  818   Social Maladjustment Without Manifest Psychiatric Disorder                   
+  819   Marital Maladjustment (Sexual, Situational, Conflict, Turmoil, Discord)      
+  820   Social Maladjustment                                                         
+  821   Occupational Maladjustment                                                   
+  822   Dyssocial Behavior also Asocial Behavior                                     
+  823   Other Social Maladjustment                                                   
+  824   Non-Specific Conditions                                                      
+                                                                                     
+  901   Diagnosis Deferred (Undetermined)                                            
+  902   Suicide Attempt (Acute - Suicide Gesture)                                    
+  903   Anorexia Nervosa                                                             
+  904   No Psychiatric Diagnosis (Without Mental Disorder)                           
+                                                                                     
+                                                                                     
+1                                                                                    
+ Page 22                                           ICPSR 9088                        
+                                                                                     
+                                                                                     
+  905   With Psychosis (Paranoid Trends Inc.)                                        
+  906   With Behavioral Reaction                                                     
+  907   With Neurotic Reaction                                                       
+  908   Malingering                                                                  
+  909   Administrative Code                                                          
+  910   Administrative Code                                                          
+  911   Administrative Code                                                          
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
