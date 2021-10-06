@@ -17,7 +17,7 @@ The dataset was a study made Dean Harper that was published by National Institut
 
 ## Team Members
 
-- Andry:
+- Andry: I am currently a Biology major looking to put my degree into med school.
 - Rebecca: I'm a PhD student in psychology studying technology and social relationships!
 
 ## Images
