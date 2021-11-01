@@ -4,12 +4,12 @@ def load_and_process(url1, url2):
     
     Data1 = (
         pd.read_csv('../data/processed/rec1data.csv')
-        .drop(labels = ["Unnamed 0:", "rid", "arrests", "jail"], axis=1)
+        .drop(labels = ["Unnamed: 0", "rid", "arrests", "jail"], axis=1)
     )
     
     Data1 = (
         pd.DataFrame(Data1)
-        .assign(sentences = (data1.iloc[:,8:21] != 0).sum(axis=1))
+        .assign(sentences = (Data1.iloc[:,8:21] != 0).sum(axis=1))
         .loc[lambda x: x['sentences']>0]
     )
     
@@ -30,11 +30,11 @@ def load_and_process(url1, url2):
                           "crime11": "category",
                           "crime12": "category",
                           "crime13": "category",
-                          "crime14": "category"}).dtype)
+                          "crime14": "category"}))
     
     psych_data = (
         pd.read_csv('../data/processed/psychdata.csv')
-        .drop(labers = ["Unnamed 0:", "contact", "date_contact", "facility", "address", "service", "date_term", "reason_term"], axis=1)
+        .drop(labels = ["Unnamed: 0", "contact", "date_contact", "facility", "address", "service", "date_term", "reason_term"], axis=1)
     )
     
     rp1data = (Data1.merge(psych_data, how='inner', on='id'))
