@@ -1,0 +1,1245 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1018.0949                               -->
+<workbook source-build='2021.3.3 (20213.21.1018.0949)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='processed_data' inline='true' name='federated.18ah0bz18dw80p112oojg10srugr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='processed_data' name='textscan.1p9oa1o16owp70118oet30a4tbxz'>
+            <connection class='textscan' directory='/Users/rebeccagodard/Desktop/courses/data_301/project-group27-project/data/processed' filename='processed_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1p9oa1o16owp70118oet30a4tbxz' name='processed_data.csv' table='[processed_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+            <column datatype='integer' name='id' ordinal='2' />
+            <column datatype='integer' name='sex' ordinal='3' />
+            <column datatype='integer' name='birth' ordinal='4' />
+            <column datatype='integer' name='race' ordinal='5' />
+            <column datatype='integer' name='educ' ordinal='6' />
+            <column datatype='integer' name='marital' ordinal='7' />
+            <column datatype='integer' name='children' ordinal='8' />
+            <column datatype='integer' name='occupat' ordinal='9' />
+            <column datatype='integer' name='arrests' ordinal='10' />
+            <column datatype='integer' name='jail' ordinal='11' />
+            <column datatype='integer' name='crime01' ordinal='12' />
+            <column datatype='integer' name='crime02' ordinal='13' />
+            <column datatype='integer' name='crime03' ordinal='14' />
+            <column datatype='integer' name='crime04' ordinal='15' />
+            <column datatype='integer' name='crime05' ordinal='16' />
+            <column datatype='integer' name='crime06' ordinal='17' />
+            <column datatype='integer' name='crime07' ordinal='18' />
+            <column datatype='integer' name='crime08' ordinal='19' />
+            <column datatype='integer' name='crime09' ordinal='20' />
+            <column datatype='integer' name='crime10' ordinal='21' />
+            <column datatype='integer' name='crime11' ordinal='22' />
+            <column datatype='integer' name='crime12' ordinal='23' />
+            <column datatype='integer' name='crime13' ordinal='24' />
+            <column datatype='integer' name='crime14' ordinal='25' />
+            <column datatype='real' name='contact' ordinal='26' />
+            <column datatype='date' name='date_contact' ordinal='27' />
+            <column datatype='integer' name='diagnosis' ordinal='28' />
+            <column datatype='real' name='service' ordinal='29' />
+            <column datatype='date' name='date_term' ordinal='30' />
+            <column datatype='real' name='reason_term' ordinal='31' />
+            <column datatype='real' name='length_treat' ordinal='32' />
+            <column datatype='integer' name='crime_num' ordinal='33' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1p9oa1o16owp70118oet30a4tbxz' name='processed_data.csv' table='[processed_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+            <column datatype='integer' name='id' ordinal='2' />
+            <column datatype='integer' name='sex' ordinal='3' />
+            <column datatype='integer' name='birth' ordinal='4' />
+            <column datatype='integer' name='race' ordinal='5' />
+            <column datatype='integer' name='educ' ordinal='6' />
+            <column datatype='integer' name='marital' ordinal='7' />
+            <column datatype='integer' name='children' ordinal='8' />
+            <column datatype='integer' name='occupat' ordinal='9' />
+            <column datatype='integer' name='arrests' ordinal='10' />
+            <column datatype='integer' name='jail' ordinal='11' />
+            <column datatype='integer' name='crime01' ordinal='12' />
+            <column datatype='integer' name='crime02' ordinal='13' />
+            <column datatype='integer' name='crime03' ordinal='14' />
+            <column datatype='integer' name='crime04' ordinal='15' />
+            <column datatype='integer' name='crime05' ordinal='16' />
+            <column datatype='integer' name='crime06' ordinal='17' />
+            <column datatype='integer' name='crime07' ordinal='18' />
+            <column datatype='integer' name='crime08' ordinal='19' />
+            <column datatype='integer' name='crime09' ordinal='20' />
+            <column datatype='integer' name='crime10' ordinal='21' />
+            <column datatype='integer' name='crime11' ordinal='22' />
+            <column datatype='integer' name='crime12' ordinal='23' />
+            <column datatype='integer' name='crime13' ordinal='24' />
+            <column datatype='integer' name='crime14' ordinal='25' />
+            <column datatype='real' name='contact' ordinal='26' />
+            <column datatype='date' name='date_contact' ordinal='27' />
+            <column datatype='integer' name='diagnosis' ordinal='28' />
+            <column datatype='real' name='service' ordinal='29' />
+            <column datatype='date' name='date_term' ordinal='30' />
+            <column datatype='real' name='reason_term' ordinal='31' />
+            <column datatype='real' name='length_treat' ordinal='32' />
+            <column datatype='integer' name='crime_num' ordinal='33' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sex</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sex]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>sex</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>birth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[birth]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>birth</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>race</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[race]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>race</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>educ</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[educ]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>educ</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>marital</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[marital]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>marital</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>children</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[children]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>children</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>occupat</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[occupat]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>occupat</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>arrests</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[arrests]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>arrests</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jail</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[jail]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>jail</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime01</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime01]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime01</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime02</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime02]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime02</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime03</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime03]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime03</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime04</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime04]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime04</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime05</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime05]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime05</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime06</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime06]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime06</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime07</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime07]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime07</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime08</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime08]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime08</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime09</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime09]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime09</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime10</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime10]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime10</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime11</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime11]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime11</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime12</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime12]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime12</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime13</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime13]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime13</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime14</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime14]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime14</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contact</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[contact]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>contact</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date_contact</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date_contact]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>date_contact</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diagnosis</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[diagnosis]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>diagnosis</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>service</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[service]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>service</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date_term</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date_term]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>date_term</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reason_term</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[reason_term]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>reason_term</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>length_treat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[length_treat]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>length_treat</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crime_num</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crime_num]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>crime_num</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='JITTER' datatype='real' name='[Calculation_617274663715262464]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='RANDOM()' />
+      </column>
+      <column caption='Calculation2' datatype='real' name='[Calculation_617274663715598339]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation1]' />
+      </column>
+      <column aggregation='None' caption='Length Treat (bin) 2' datatype='integer' name='[Length Treat (bin) 2]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[length_treat]' peg='0' size='5' />
+      </column>
+      <column caption='Race' datatype='string' name='[Race (group)]' role='dimension' type='ordinal'>
+        <calculation class='categorical-bin' column='[race]' new-bin='true'>
+          <bin default-name='false' value='&quot;Black&quot;'>
+            <value>2</value>
+          </bin>
+          <bin default-name='false' value='&quot;White&quot;'>
+            <value>1</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='integer' hidden='true' name='[Unnamed: 0]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='processed_data.csv' datatype='table' name='[__tableau_internal_object_id__].[processed_data.csv_090863C6F6A94DC6B9F75E40589930F5]' role='measure' type='quantitative' />
+      <column caption='Arrests' datatype='integer' name='[arrests]' role='measure' type='quantitative' />
+      <column caption='Birth' datatype='integer' name='[birth]' role='measure' type='quantitative' />
+      <column caption='Children' datatype='integer' name='[children]' role='measure' type='quantitative' />
+      <column caption='Contact' datatype='real' name='[contact]' role='measure' type='quantitative' />
+      <column caption='Crime01' datatype='integer' name='[crime01]' role='measure' type='quantitative' />
+      <column caption='Crime02' datatype='integer' name='[crime02]' role='measure' type='quantitative' />
+      <column caption='Crime03' datatype='integer' name='[crime03]' role='measure' type='quantitative' />
+      <column caption='Crime04' datatype='integer' name='[crime04]' role='measure' type='quantitative' />
+      <column caption='Crime05' datatype='integer' name='[crime05]' role='measure' type='quantitative' />
+      <column caption='Crime06' datatype='integer' name='[crime06]' role='measure' type='quantitative' />
+      <column caption='Crime07' datatype='integer' name='[crime07]' role='measure' type='quantitative' />
+      <column caption='Crime08' datatype='integer' name='[crime08]' role='measure' type='quantitative' />
+      <column caption='Crime09' datatype='integer' name='[crime09]' role='measure' type='quantitative' />
+      <column caption='Crime10' datatype='integer' name='[crime10]' role='measure' type='quantitative' />
+      <column caption='Crime11' datatype='integer' name='[crime11]' role='measure' type='quantitative' />
+      <column caption='Crime12' datatype='integer' name='[crime12]' role='measure' type='quantitative' />
+      <column caption='Crime13' datatype='integer' name='[crime13]' role='measure' type='quantitative' />
+      <column caption='Crime14' datatype='integer' name='[crime14]' role='measure' type='quantitative' />
+      <column caption='Crime Num' datatype='integer' name='[crime_num]' role='dimension' type='ordinal' />
+      <column caption='Date Contact' datatype='date' name='[date_contact]' role='dimension' type='ordinal' />
+      <column caption='Date Term' datatype='date' name='[date_term]' role='dimension' type='ordinal' />
+      <column caption='Diagnosis' datatype='integer' name='[diagnosis]' role='measure' type='quantitative' />
+      <column caption='Educ' datatype='integer' name='[educ]' role='measure' type='quantitative' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Jail' datatype='integer' name='[jail]' role='measure' type='quantitative' />
+      <column caption='Length Treat' datatype='real' name='[length_treat]' role='measure' type='quantitative' />
+      <column caption='Marital' datatype='integer' name='[marital]' role='measure' type='quantitative' />
+      <column caption='Occupat' datatype='integer' name='[occupat]' role='measure' type='quantitative' />
+      <column caption='Race_code' datatype='integer' name='[race]' role='measure' type='ordinal' />
+      <column caption='Reason Term' datatype='real' name='[reason_term]' role='measure' type='quantitative' />
+      <column caption='Service' datatype='real' name='[service]' role='measure' type='quantitative' />
+      <column caption='Sex' datatype='integer' name='[sex]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[Race (group)]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;Black&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;White&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='F1' />
+        <field-sort-custom-order field='id' />
+        <field-sort-custom-order field='sex' />
+        <field-sort-custom-order field='birth' />
+        <field-sort-custom-order field='race' />
+        <field-sort-custom-order field='educ' />
+        <field-sort-custom-order field='marital' />
+        <field-sort-custom-order field='children' />
+        <field-sort-custom-order field='occupat' />
+        <field-sort-custom-order field='arrests' />
+        <field-sort-custom-order field='jail' />
+        <field-sort-custom-order field='crime01' />
+        <field-sort-custom-order field='crime02' />
+        <field-sort-custom-order field='crime03' />
+        <field-sort-custom-order field='crime04' />
+        <field-sort-custom-order field='crime05' />
+        <field-sort-custom-order field='crime06' />
+        <field-sort-custom-order field='crime07' />
+        <field-sort-custom-order field='crime08' />
+        <field-sort-custom-order field='crime09' />
+        <field-sort-custom-order field='crime10' />
+        <field-sort-custom-order field='crime11' />
+        <field-sort-custom-order field='crime12' />
+        <field-sort-custom-order field='crime13' />
+        <field-sort-custom-order field='crime14' />
+        <field-sort-custom-order field='contact' />
+        <field-sort-custom-order field='date_contact' />
+        <field-sort-custom-order field='diagnosis' />
+        <field-sort-custom-order field='service' />
+        <field-sort-custom-order field='date_term' />
+        <field-sort-custom-order field='reason_term' />
+        <field-sort-custom-order field='length_treat' />
+        <field-sort-custom-order field='crime_num' />
+        <field-sort-custom-order field='Length Treat (bin) 2' />
+        <field-sort-custom-order field='Race (group)' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='processed_data.csv' id='processed_data.csv_090863C6F6A94DC6B9F75E40589930F5'>
+            <properties context=''>
+              <relation connection='textscan.1p9oa1o16owp70118oet30a4tbxz' name='processed_data.csv' table='[processed_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+                  <column datatype='integer' name='id' ordinal='2' />
+                  <column datatype='integer' name='sex' ordinal='3' />
+                  <column datatype='integer' name='birth' ordinal='4' />
+                  <column datatype='integer' name='race' ordinal='5' />
+                  <column datatype='integer' name='educ' ordinal='6' />
+                  <column datatype='integer' name='marital' ordinal='7' />
+                  <column datatype='integer' name='children' ordinal='8' />
+                  <column datatype='integer' name='occupat' ordinal='9' />
+                  <column datatype='integer' name='arrests' ordinal='10' />
+                  <column datatype='integer' name='jail' ordinal='11' />
+                  <column datatype='integer' name='crime01' ordinal='12' />
+                  <column datatype='integer' name='crime02' ordinal='13' />
+                  <column datatype='integer' name='crime03' ordinal='14' />
+                  <column datatype='integer' name='crime04' ordinal='15' />
+                  <column datatype='integer' name='crime05' ordinal='16' />
+                  <column datatype='integer' name='crime06' ordinal='17' />
+                  <column datatype='integer' name='crime07' ordinal='18' />
+                  <column datatype='integer' name='crime08' ordinal='19' />
+                  <column datatype='integer' name='crime09' ordinal='20' />
+                  <column datatype='integer' name='crime10' ordinal='21' />
+                  <column datatype='integer' name='crime11' ordinal='22' />
+                  <column datatype='integer' name='crime12' ordinal='23' />
+                  <column datatype='integer' name='crime13' ordinal='24' />
+                  <column datatype='integer' name='crime14' ordinal='25' />
+                  <column datatype='real' name='contact' ordinal='26' />
+                  <column datatype='date' name='date_contact' ordinal='27' />
+                  <column datatype='integer' name='diagnosis' ordinal='28' />
+                  <column datatype='real' name='service' ordinal='29' />
+                  <column datatype='date' name='date_term' ordinal='30' />
+                  <column datatype='real' name='reason_term' ordinal='31' />
+                  <column datatype='real' name='length_treat' ordinal='32' />
+                  <column datatype='integer' name='crime_num' ordinal='33' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>How long were prisoners in psychiatric treatment?</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run><![CDATA[This histogram depicts the length of psychatric treatment in days. The filter function can be used to see the left end of the plot in more detail. The vast majority of prisoners spent a small amount of time (<50 days) in treatment, but the maximum time in treatment was over 7 years. ]]></run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.18ah0bz18dw80p112oojg10srugr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18ah0bz18dw80p112oojg10srugr'>
+            <column aggregation='None' caption='Length Treat (bin) 2' datatype='integer' name='[Length Treat (bin) 2]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[length_treat]' peg='0' size='5' />
+            </column>
+            <column-instance column='[length_treat]' derivation='Count' name='[cnt:length_treat:qk]' pivot='key' type='quantitative' />
+            <column caption='Length Treat' datatype='real' name='[length_treat]' role='measure' type='quantitative' />
+            <column-instance column='[Length Treat (bin) 2]' derivation='None' name='[none:Length Treat (bin) 2:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[length_treat]' derivation='None' name='[none:length_treat:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18ah0bz18dw80p112oojg10srugr].[none:Length Treat (bin) 2:ok]'>
+            <groupfilter function='level-members' level='[none:Length Treat (bin) 2:ok]' />
+          </filter>
+          <filter class='quantitative' column='[federated.18ah0bz18dw80p112oojg10srugr].[none:length_treat:qk]' included-values='in-range'>
+            <min>0.0</min>
+            <max>61.700000000000003</max>
+          </filter>
+          <slices>
+            <column>[federated.18ah0bz18dw80p112oojg10srugr].[none:length_treat:qk]</column>
+            <column>[federated.18ah0bz18dw80p112oojg10srugr].[none:Length Treat (bin) 2:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.18ah0bz18dw80p112oojg10srugr].[cnt:length_treat:qk]' scope='rows' value='Frequency' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.37281766533851624' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18ah0bz18dw80p112oojg10srugr].[cnt:length_treat:qk]</rows>
+        <cols>[federated.18ah0bz18dw80p112oojg10srugr].[none:Length Treat (bin) 2:ok]</cols>
+        <show-full-range>
+          <column>[federated.18ah0bz18dw80p112oojg10srugr].[Length Treat (bin) 2]</column>
+          <column>[federated.18ah0bz18dw80p112oojg10srugr].[Length Treat (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{5D9FB055-5DA7-4CC7-B4B5-370F14FC7DED}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Is number of crimes associated with length of time in treatment? </run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>This scatterplot shows a small negative relationship between number of crimes committed and length of psychiatric treatment. </run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.18ah0bz18dw80p112oojg10srugr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18ah0bz18dw80p112oojg10srugr'>
+            <column caption='Race' datatype='string' name='[Race (group)]' role='dimension' type='ordinal'>
+              <calculation class='categorical-bin' column='[race]' new-bin='true'>
+                <bin default-name='false' value='&quot;Black&quot;'>
+                  <value>2</value>
+                </bin>
+                <bin default-name='false' value='&quot;White&quot;'>
+                  <value>1</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Crime Num' datatype='integer' name='[crime_num]' role='dimension' type='ordinal' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column caption='Length Treat' datatype='real' name='[length_treat]' role='measure' type='quantitative' />
+            <column-instance column='[crime_num]' derivation='None' name='[none:crime_num:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[id]' derivation='None' name='[none:id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[length_treat]' derivation='None' name='[none:length_treat:qk]' pivot='key' type='quantitative' />
+            <column caption='Race_code' datatype='integer' name='[race]' role='measure' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18ah0bz18dw80p112oojg10srugr].[Race (group)]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[Race (group)]' member='&quot;Black&quot;' />
+              <groupfilter function='member' level='[Race (group)]' member='&quot;White&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.18ah0bz18dw80p112oojg10srugr].[Race (group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.18ah0bz18dw80p112oojg10srugr].[none:length_treat:qk]' scope='cols' value='Length of Psychiatric Treatment (days)' />
+            <format attr='title' class='0' field='[federated.18ah0bz18dw80p112oojg10srugr].[none:crime_num:qk]' scope='rows' value='Number of Crimes' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.18ah0bz18dw80p112oojg10srugr].[none:id:ok]' />
+              <color column='[federated.18ah0bz18dw80p112oojg10srugr].[Race (group)]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.0099999997764825821' />
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18ah0bz18dw80p112oojg10srugr].[none:crime_num:qk]</rows>
+        <cols>[federated.18ah0bz18dw80p112oojg10srugr].[none:length_treat:qk]</cols>
+      </table>
+      <simple-id uuid='{C145A451-5471-490F-B1DD-B8C27649E505}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Does length of treatment differ by race? </run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>This boxplot shows that Black prisoners spent longer in psychatric treatment compared to White prisoners.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.18ah0bz18dw80p112oojg10srugr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18ah0bz18dw80p112oojg10srugr'>
+            <column caption='JITTER' datatype='real' name='[Calculation_617274663715262464]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='RANDOM()' />
+            </column>
+            <column caption='Race' datatype='string' name='[Race (group)]' role='dimension' type='ordinal'>
+              <calculation class='categorical-bin' column='[race]' new-bin='true'>
+                <bin default-name='false' value='&quot;Black&quot;'>
+                  <value>2</value>
+                </bin>
+                <bin default-name='false' value='&quot;White&quot;'>
+                  <value>1</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Length Treat' datatype='real' name='[length_treat]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_617274663715262464]' derivation='None' name='[none:Calculation_617274663715262464:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[length_treat]' derivation='None' name='[none:length_treat:qk]' pivot='key' type='quantitative' />
+            <column caption='Race_code' datatype='integer' name='[race]' role='measure' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.18ah0bz18dw80p112oojg10srugr].[none:Calculation_617274663715262464:qk]' scope='cols' value='false' />
+            <format attr='title' class='0' field='[federated.18ah0bz18dw80p112oojg10srugr].[none:length_treat:qk]' scope='rows' value='Length of Psychiatric Treatment (days)' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.18ah0bz18dw80p112oojg10srugr].[none:Calculation_617274663715262464:qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.18ah0bz18dw80p112oojg10srugr].[Race (group)]' />
+            </encodings>
+            <reference-line axis-column='[federated.18ah0bz18dw80p112oojg10srugr].[none:length_treat:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.18ah0bz18dw80p112oojg10srugr].[none:length_treat:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.31784531474113464' />
+                <format attr='mark-color' value='#59a14f' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18ah0bz18dw80p112oojg10srugr].[none:length_treat:qk]</rows>
+        <cols>([federated.18ah0bz18dw80p112oojg10srugr].[Race (group)] * [federated.18ah0bz18dw80p112oojg10srugr].[none:Calculation_617274663715262464:qk])</cols>
+      </table>
+      <simple-id uuid='{04EBC3EF-3F0A-4398-86C6-A66F9F547E02}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Does number of arrests predict length of treatment?</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>This plot shows the relationship between number of arrests and length of treatment. The relationship is moderately strong and negative. </run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.18ah0bz18dw80p112oojg10srugr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18ah0bz18dw80p112oojg10srugr'>
+            <column caption='Race' datatype='string' name='[Race (group)]' role='dimension' type='ordinal'>
+              <calculation class='categorical-bin' column='[race]' new-bin='true'>
+                <bin default-name='false' value='&quot;Black&quot;'>
+                  <value>2</value>
+                </bin>
+                <bin default-name='false' value='&quot;White&quot;'>
+                  <value>1</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Arrests' datatype='integer' name='[arrests]' role='measure' type='quantitative' />
+            <column caption='Length Treat' datatype='real' name='[length_treat]' role='measure' type='quantitative' />
+            <column-instance column='[arrests]' derivation='None' name='[none:arrests:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[length_treat]' derivation='None' name='[none:length_treat:qk]' pivot='key' type='quantitative' />
+            <column caption='Race_code' datatype='integer' name='[race]' role='measure' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.18ah0bz18dw80p112oojg10srugr].[none:arrests:qk]' scope='rows' value='Number of Arrests' />
+            <format attr='title' class='0' field='[federated.18ah0bz18dw80p112oojg10srugr].[none:length_treat:qk]' scope='cols' value='Length of Psychiatric Treatment (days)' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.18ah0bz18dw80p112oojg10srugr].[Race (group)]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.0099999997764825821' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.18ah0bz18dw80p112oojg10srugr].[none:arrests:qk]</rows>
+        <cols>[federated.18ah0bz18dw80p112oojg10srugr].[none:length_treat:qk]</cols>
+      </table>
+      <simple-id uuid='{63E59D19-7EC0-4143-961E-2322BB7B03CE}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Factors Predicting Length of Psychiatric Treatment among Prisoners</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='processed_data' name='federated.18ah0bz18dw80p112oojg10srugr' />
+      </datasources>
+      <datasource-dependencies datasource='federated.18ah0bz18dw80p112oojg10srugr'>
+        <column caption='Length Treat' datatype='real' name='[length_treat]' role='measure' type='quantitative' />
+        <column-instance column='[length_treat]' derivation='None' name='[none:length_treat:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='14' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='5250' id='15' type-v2='title' w='98400' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='92750' id='8' param='horz' type-v2='layout-flow' w='98400' x='800' y='6250'>
+              <zone h='92750' id='6' type-v2='layout-basic' w='82400' x='800' y='6250'>
+                <zone h='46375' id='5' name='Sheet 2' show-caption='true' w='41200' x='42000' y='6250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='46375' id='10' name='Sheet 3' show-caption='true' w='41200' x='800' y='52625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='46375' id='11' name='Sheet 4' show-caption='true' w='41200' x='42000' y='52625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='46375' id='12' name='Sheet 1' show-caption='true' w='41200' x='800' y='6250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='92750' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='6250'>
+                <zone h='8250' id='9' name='Sheet 2' pane-specification-id='0' param='[federated.18ah0bz18dw80p112oojg10srugr].[Race (group)]' type-v2='color' w='16000' x='83200' y='6250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='8625' id='17' name='Sheet 1' param='[federated.18ah0bz18dw80p112oojg10srugr].[none:length_treat:qk]' type-v2='filter' values='database' w='16000' x='83200' y='14500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7FC48909-B3D3-4F86-ADED-BDAB185C2791}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{F9FF3509-BEB6-42DA-A249-BD5D2E665539}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18ah0bz18dw80p112oojg10srugr].[Race (group)]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{22007F44-4222-4A24-9CE5-81AD99C41402}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18ah0bz18dw80p112oojg10srugr].[Race (group)]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DF2B09AD-B436-4887-BBC9-2C649399FA7B}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.18ah0bz18dw80p112oojg10srugr].[Race (group)]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='94'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A19E6EC0-5038-49E6-9902-0972E7D04477}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='17' />
+      <simple-id uuid='{3B000533-5EF3-477D-AF60-17E179CF1718}' />
+    </window>
+  </windows>
+</workbook>
