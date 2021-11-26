@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-def load_and_process(url1, url2):
+def load_and_processed(url1):
     
     Data1 = (
         pd.read_csv('../data/processed/rec1data.csv')
@@ -31,12 +31,4 @@ def load_and_process(url1, url2):
                           "crime12": "category",
                           "crime13": "category",
                           "crime14": "category"}))
-    
-    psych_data = (
-        pd.read_csv('../data/processed/psychdata.csv')
-        .drop(labels = ["Unnamed: 0", "contact", "date_contact", "facility", "address", "service", "date_term", "reason_term"], axis=1)
-    )
-    
-    rp1data = (Data1.merge(psych_data, how='inner', on='id'))
-    
-    return rp1data
+    return Data1
